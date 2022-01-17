@@ -12,6 +12,8 @@ Shelly vision is an agglomeration of files which allows the creation of custom o
 
 - It might not make much sense to use this project if you don't have decent hardware, just use the ftc-ml tool (if that's an option for you)
 
+> Note: ensure that in your `build.dependencies.gradle` has `implementation 'org.tensorflow:tensorflow-lite-task-vision:0.3.1'` under `dependencies {` otherwise it will fail
+
 ## Setup
 
 > This will not work on all systems, there's always some weird error, I wish you the best of luck
